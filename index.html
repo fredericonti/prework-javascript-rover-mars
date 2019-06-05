@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mars Rover</title>
+
+  <style>
+    * {
+      background-color: lightcoral;
+    }
+
+    .block {
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      padding: 10%;
+      margin-left: 10px;
+
+    }
+
+    .block ul {
+      font-family: Arial, Helvetica, sans-serif;
+      justify-content: center;
+      align-items: center;
+      margin-left: 10px;
+
+    }
+
+    .block p {
+      margin-left: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .button {
+      font-family: Arial, Helvetica, sans-serif;
+      width: 60px;
+      height: 60px;
+      justify-content: center;
+      align-items: center;
+      border-style: none;
+      background-color: blue;
+    }
+
+
+    .button:hover {
+      font-family: Arial, Helvetica, sans-serif;
+      width: 60px;
+      height: 60px;
+      justify-content: center;
+      align-items: center;
+      border-style: none;
+      background-color: deepskyblue;
+    }
+
+    #results {
+      font-family: Arial, Helvetica, sans-serif;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .grid {
+      width: 10px;
+      height: 10px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="block">
+    <button class="button">Try it</button>
+    <p>Hi! This is what happens<br>with your hover.</p>
+    <ul id='list'></ul>
+  </div>
+
+  <div class="whereareyou">
+    <p id="results"></p>
+  </div>
+
+  <div class="grid">
+  </div>
+  
+  <script src="javascripts/app.js"></script>
+</body>
+
+</html>
